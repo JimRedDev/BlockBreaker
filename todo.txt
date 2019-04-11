@@ -1,0 +1,12 @@
+1.  Sounds on collisions.
+2.  Sprite for the paddle.
+3.  ? Running screens to black & white
+4.  ? Running screens with coloured blocks - differ per level.
+5.  ? Gradient backgrounds
+6.  Ball paddle collision physics.
+7.  Ball to spawn in location of paddle.
+8.  Randomize balls x acceleration value between - & + on spawn.
+9.  A few new level layouts.
+10. Possible unbreakable blocks.
+11. Blocks that require multiple hits to break.
+12. Website design to host the game.
