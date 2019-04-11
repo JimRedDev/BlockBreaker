@@ -23,7 +23,7 @@ export default class Ball {
 
         this.speed = {
             x: 4,
-            y: -2
+            y: -4
         }
 
     }
@@ -56,6 +56,11 @@ export default class Ball {
         // Paddle collision
         if(detectCollision(this, this.game.paddle)) {
             this.speed.y *= -1;
+
+            // Vary speed.x depending on where the ball hit the paddle
+            let deltaX = this.position.x - (this.game.paddle.position.x + this.game.paddle.width / 2);
+            this.speed.x = deltaX * 0.15;
+
             this.position.y = this.game.paddle.position.y - this.size;
         }
 
